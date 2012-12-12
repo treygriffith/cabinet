@@ -15,7 +15,7 @@
     "key/value"
   ],
   "dependencies": {
-    "cellar": "*"
+    "cellar": ">=0.0.2"
   },
   "devDependencies": {
   },
