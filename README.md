@@ -14,7 +14,7 @@ $ npm install cabinetkv
 
  or using Git
 ``` bash
-$ git clone git://github.com/treygriffith/cabinet.git node_modules/cabinet/
+$ git clone git://github.com/treygriffith/cabinet.git node_modules/cabinetkv/
 ```
 
 API/How to Use
@@ -23,6 +23,8 @@ API/How to Use
 #### Instantiate Cabinet with a collection name, and mongoDB details or a Mongoose instance
 
 ``` javascript
+Cabinet = require('cabinetkv');
+
 // with Mongoose instance
 
 var mongoose = require('mongoose');
