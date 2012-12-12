@@ -44,29 +44,29 @@ var cabinet = new Cabinet('mykvstore', {user:db.user, pass:db.pass, host:db.host
   ``` javascript
   // Store a value with a specific key
   cabinet.set('mykey', 'myvalue', function(err, key) {
-    if(err) {
-      console.error(err);
-      return;
-    }
-    console.log(key); // prints 'mykey'
+      if(err) {
+        console.error(err);
+        return;
+      }
+      console.log(key); // prints 'mykey'
   });
 
   // Store a value with a randomly generated key
   cabinet.set('myvalue', function(err, key) {
-    if(err) {
-      console.error(err);
-      return;
-    }
-    console.log(key); // prints a random 16 character string
+      if(err) {
+        console.error(err);
+        return;
+      }
+      console.log(key); // prints a random 16 character string
   });
 
 2. `get` - Retrieve a value
 
   ``` javascript
   cabinet.get('mykey', function(err, val) {
-    if(err) {
-      console.error(err);
-      return;
-    }
-    console.log(val); // prints 'myvalue'
+      if(err) {
+        console.error(err);
+        return;
+      }
+      console.log(val); // prints 'myvalue'
   });
