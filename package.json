@@ -1,5 +1,5 @@
 {
-  "name": "cabinet",
+  "name": "cabinetkv",
   "description": "Brainless Key/Value storage for MongoDB",
   "version": "0.0.1",
   "author": {

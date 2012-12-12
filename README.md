@@ -9,7 +9,7 @@ Installation
 
 Through [NPM](http://www.npmjs.org)
 ``` bash
-$ npm install cabinet
+$ npm install cabinetkv
 ```
 
  or using Git
