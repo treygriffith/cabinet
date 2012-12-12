@@ -1,0 +1,31 @@
+{
+  "name": "cabinet",
+  "description": "Brainless Key/Value storage for MongoDB",
+  "version": "0.0.1",
+  "author": {
+    "name": "Trey Griffith",
+    "email": "trey.griffith@gmail.com"
+  },
+  "keywords": [
+    "mongoose",
+    "mongodb",
+    "storage",
+    "cache",
+    "kv",
+    "key/value"
+  ],
+  "dependencies": {
+    "cellar": "*"
+  },
+  "devDependencies": {
+  },
+  "main": "./index.js",
+  "engines": {
+    "node": "0.8.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/treygriffith/cabinet.git"
+  },
+  "homepage": "https://github.com/treygriffith/cabinet"
+}
